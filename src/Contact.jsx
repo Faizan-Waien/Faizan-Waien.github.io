@@ -1,3 +1,7 @@
+import img1 from "/src/assets/images/mail.png"
+import img2 from "/src/assets/images/phone-call.png"
+import img3 from "/src/assets/images/location.png"
+
 const Contact = () => {
 
     return (
@@ -11,17 +15,17 @@ const Contact = () => {
                 <div className="con1a">
 
                     <div className="co">
-                        <img src='/src/images/mail.png' style={{ width: 40 }} />
+                        <img src={img1} style={{ width: 40 }} />
                         <h3>faizan.waien@gmail.com</h3>
                     </div>
 
                     <div className="co">
-                        <img src='/src/images/phone-call.png' style={{ width: 40 }} />
+                        <img src={img2} style={{ width: 40 }} />
                         <h3>+923345364196</h3>
                     </div>
 
                     <div className="co">
-                        <img src='/src/images/location.png' style={{ width: 40 }} />
+                        <img src={img3} style={{ width: 40 }} />
                         <h3>Islamabad,Pakistan</h3>
                     </div>
 

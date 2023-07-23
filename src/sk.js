@@ -1,77 +1,90 @@
+import icon1 from "/src/assets/images/skills/html.png"
+import icon2 from "/src/assets/images/skills/css3.png"
+import icon3 from "/src/assets/images/skills/javascript.png"
+import icon4 from "/src/assets/images/skills/React.png"
+import icon5 from "/src/assets/images/skills/expressJS.png"
+import icon6 from "/src/assets/images/skills/git.png"
+import icon7 from "/src/assets/images/skills/github.png"
+import icon8 from "/src/assets/images/skills/pgSQL.png"
+import icon9 from "/src/assets/images/skills/rest-api.png"
+import icon10 from "/src/assets/images/skills/sockets.png"
+import icon11 from "/src/assets/images/skills/vs-code.png"
+import icon12 from "/src/assets/images/skills/Responsive.png"
+
 const skill = [
 
     {
         id: 1,
         title: 'HTML5',
-        image: '/src/images/skills/html.png'
+        image: icon1
 
     },
 
     {
         id: 2,
         title: 'CSS3',
-        image: '/src/images/skills/css3.png',
+        image: icon2
 
     },
 
     {
         id: 3,
         title: 'JavaScript',
-        image: '/src/images/skills/javascript.png',
+        image: icon3
     },
 
     {
         id: 4,
         title: 'React',
-        image: '/src/images/skills/React.png'
+        image: icon4
     },
 
     {
         id: 5,
         title: 'Express.js',
-        image: '/src/images/skills/expressJS.png'
+        image: icon5
     },
 
     {
         id: 6,
         title: 'Git',
-        image: '/src/images/skills/git.png'
+        image: icon6
     },
 
     {
         id: 7,
         title: 'Github',
-        image: '/src/images/skills/github.png'
+        image: icon7
     },
 
     {
         id: 8,
         title: 'PostgreSQL',
-        image: '/src/images/skills/pgSQL.png'
+        image: icon8
     },
 
     {
         id: 9,
         title: 'RESTful APIs',
-        image: '/src/images/skills/rest-api.png'
+        image: icon9
     },
 
     {
         id: 10,
         title: 'Sockets.io',
-        image: '/src/images/skills/sockets.png'
+        image: icon10
     },
 
     {
         id: 11,
         title: 'VS Code',
-        image: '/src/images/skills/vs-code.png'
+        image: icon11
     },
 
     {
         id: 12,
         title: 'Responsive',
-        image: '/src/images/skills/Responsive.png'
+        image: icon12
     },
 
 ]

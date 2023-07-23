@@ -1,3 +1,8 @@
+import SS from "/src/assets/images/SS.Dis.png"
+import EZ from "/src/assets/images/EZ.Dis.png"
+import FH from "/src/assets/images/FH.Dis.png"
+import PR from "/src/assets/images/PR.Dis.png"
+
 const Work = [
 
     {
@@ -9,7 +14,7 @@ const Work = [
         With cutting-edge features and a user-friendly interface, SocialSpace is your go-to destination \
         for staying connected and discovering new horizons. Join us now and experience the power of \
         genuine connections in a digital world!',
-        image: '/src/images/SS.Dis.png',
+        image: SS,
         github:'https://github.com/Faizan-Waien/SocialSpace',
         link:'',
     },
@@ -23,7 +28,7 @@ const Work = [
         for every occasion. Explore our wide range of accessories, including bags, jewelry, and \
         more, to add that perfect finishing touch to your look. Shop conveniently from the comfort \
         of your home and step into the online shoping world with EZWAY!',
-        image: '/src/images/EZ.Dis.png',
+        image: EZ,
         github:'',
         link:'',
     },
@@ -35,7 +40,7 @@ const Work = [
         detail:'FlixHub is your go-to platform for streaming a vast collection of movies from all genres and languages. \
         From timeless classics to the latest blockbusters, we have got it all. Immerse yourself in the world of cinema \
         and enjoy unlimited entertainment from the comfort of your home. With FlixHub, movie night just got better!',
-        image: '/src/images/FH.Dis.png',
+        image: FH,
         github:'',
         link:'',
     },
@@ -46,7 +51,7 @@ const Work = [
         tagline: 'Portfolio - Showcasing my skills and work/projects!',
         detail:'Thank you for visiting, and I look forward to the opportunity to collaborate on future projects or discuss \
         how I can contribute to your web development needs. Lets create something extraordinary together!',
-        image: '/src/images/PR.Dis.png',
+        image: PR,
         github:'',
         link:'',
     },

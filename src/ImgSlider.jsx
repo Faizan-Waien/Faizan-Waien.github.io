@@ -1,22 +1,26 @@
 import { useEffect, useState } from 'react';
 import './imgSlider.css';
+import SS from '/src/assets/images/SS.jpg'
+import EZ from '/src/assets/images/EZ.jpg'
+import FH from '/src/assets/images/FH.jpg'
+import PR from '/src/assets/images/PR.jpg'
 
 const photos = [
   {
     id: '1',
-    url: '/src/images/SS.jpg',
+    url: SS,
   },
   {
     id: '2',
-    url: '/src/images/EZ.jpg',
+    url: EZ,
   },
   {
     id: '3',
-    url: '/src/images/FH.jpg',
+    url: FH,
   },
   {
     id: '4',
-    url: '/src/images/PR.jpg',
+    url: PR,
   },
 ];
 

@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom"
+import MyImage from "/src/assets/images/picx.png"
 
 const Banner = () => {
 
@@ -18,7 +19,7 @@ const Banner = () => {
 
                 </div>
 
-                <img src='/src/images/picx.png' />
+                <img src={MyImage} />
 
             </div>
 

@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import image from '/src/assets/images/urdu2.png'
 
 const Header = () => {
 
@@ -8,7 +9,7 @@ const Header = () => {
         <div>
 
             <div className='left'>
-                <img src='/src/images/urdu2.png' onClick={() => navigate('/')} />
+                <img src={image} onClick={() => navigate('/')} />
             </div>
 
         </div>

@@ -1,5 +1,9 @@
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
+import LaptopImage from "/src/assets/images/nbv2.png"
+import Bar1Image from '/src/assets/images/br1.jpg'
+import Bar2Image from '/src/assets/images/br.jpg'
+import NameImage from '/src/assets/images/urdu2.png'
 
 const Cont = () => {
 
@@ -10,7 +14,7 @@ const Cont = () => {
     return (
         <div className='contct'>
 
-            <img src='/src/images/nbv2.png' style={{ zIndex: 2, width: '100%', height: '100%' }} />
+            <img src={LaptopImage} style={{ zIndex: 2, width: '100%', height: '100%' }} />
 
             <div style={{ zIndex: 1, height: '41%', width: '37%', background: 'black', border: '1px solid black', position: 'absolute', top: 28, left: '31%' }}></div>
 
@@ -18,11 +22,11 @@ const Cont = () => {
                 <div className='win' id='win'>
 
                     <div style={{ display: 'flex' }}>
-                        <img src='/src/images/br1.jpg' style={{ width: '100%' }} />
+                        <img src={Bar1Image} style={{ width: '100%' }} />
                     </div>
 
                     <div style={{ display: 'block', padding: '5px 10px', background: '#242424' }}>
-                        <img src='/src/images/urdu2.png' style={{ width: '50px' }} />
+                        <img src={NameImage} style={{ width: '50px' }} />
                     </div>
 
                     <div style={{ display: 'block', padding: '0px 10px', borderBottom: '1px solid black' }}>
@@ -44,7 +48,7 @@ const Cont = () => {
                     </div>
 
                     <div style={{ display: 'flex' }}>
-                        <img src='/src/images/br.jpg' style={{ width: '100%' }} />
+                        <img src={Bar2Image} style={{ width: '100%' }} />
                     </div>
 
                 </div>
