@@ -52,8 +52,8 @@ const Work = [
         detail:'Thank you for visiting, and I look forward to the opportunity to collaborate on future projects or discuss \
         how I can contribute to your web development needs. Lets create something extraordinary together!',
         image: PR,
-        github:'',
-        link:'',
+        github:'https://github.com/Faizan-Waien/Faizan-Waien.github.io',
+        link:'https://faizan-waien.github.io/',
     },
 
 ]

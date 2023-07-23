@@ -1,7 +1,6 @@
 import { Routes, Route, Outlet } from "react-router-dom"
 import Header from "./Header"
 import Footer from "./Footer"
-import Banner from './Banner'
 import About from './About'
 import Skills from './Skills'
 import Projects from './Projects'
