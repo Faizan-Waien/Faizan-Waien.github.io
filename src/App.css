@@ -92,20 +92,6 @@
 
 /* -Banner------------------------------------- */
 
-/* .banner {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  justify-content: space-between;
-  padding-left: 50px;
-  align-items: center;
-  height: 630px;
-  background: white;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px;
-  animation-name: fade;
-  animation-duration: 1.5s;
-} */
-
 .banner {
   display: flex;
   flex-direction: row;
@@ -121,6 +107,7 @@
 }
 
 .bio {
+  display: block;
   width: 100%;
   position: relative;
 
@@ -367,66 +354,6 @@
   left: 32.6%;
 }
 
-/* -FOOTER----------------------------------------- */
-
-.footer {
-  position: relative;
-  width: 100%;
-  height: 40px;
-  background: whitesmoke;
-  border-top: 5px solid gray;
-}
-
-.foot1 {
-  display: flex;
-  flex-direction: row;
-  color: gray;
-  padding: 10px 100px;
-  justify-content: space-between;
-}
-
-.foot1 .foot1b {
-  display: flex;
-  flex-direction: row;
-}
-
-.foot1b li {
-  color: gray;
-  text-decoration: none;
-  list-style: none;
-  padding: 0px 20px;
-  cursor: pointer;
-  transition: 0.5s;
-}
-
-.foot1b li:hover {
-  color: white;
-}
-
-.footer .scroll {
-  text-align: center;
-  width: 100px;
-  border-top-right-radius: 50px;
-  border-top-left-radius: 50px;
-  background: whitesmoke;
-  color: gray;
-  position: absolute;
-  top: -45px;
-  left: 50%;
-  cursor: pointer;
-  transition: top 0.1s ease-in-out;
-  border-top: 5px solid gray;
-}
-
-.scroll:hover {
-  top: -48px;
-  color: white;
-}
-
-.scroll h1 {
-  transform: rotate(90deg);
-}
-
 /* -PROJECTS------------------------------ */
 
 .projects {
@@ -470,10 +397,11 @@
 
 .projbtn {
   display: flex;
-  gap:5px
+  flex-direction: column;
+  gap: 5px;
 }
 
-.projbtn form{
+.projbtn form {
   display: block;
   width: 100%;
 }
@@ -486,6 +414,7 @@
   border-radius: 20px;
   cursor: pointer;
   transition: 0.5s;
+  font-size: 1.2vw;
 }
 
 .projbtn button:hover {
@@ -493,24 +422,70 @@
   color: white;
 }
 
+/* -FOOTER----------------------------------------- */
+
+.footer {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  background: whitesmoke;
+  border-top: 5px solid gray;
+}
+
+.foot1 {
+  display: flex;
+  flex-direction: row;
+  color: gray;
+  width: 80%;
+  margin: auto ;
+  padding: 10px;
+}
+
+.foot1 .foot1b {
+  display: flex;
+  flex-direction: row;
+}
+
+.foot1b li {
+  color: gray;
+  text-decoration: none;
+  list-style: none;
+  padding: 0px 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.foot1b li:hover {
+  color: white;
+}
+
+.footer .scroll {
+  text-align: center;
+  width: 100px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  background: whitesmoke;
+  color: gray;
+  position: absolute;
+  top: -45px;
+  left: 45%;
+  cursor: pointer;
+  transition: top 0.1s ease-in-out;
+  border-top: 5px solid gray;
+}
+
+.scroll:hover {
+  top: -48px;
+  color: white;
+}
+
+.scroll h1 {
+  transform: rotate(90deg);
+}
+
 /* ---------------------------------------- */
 
 @media screen and (max-width: 700px) {
-
-  .banner {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 630px;
-    align-items: center;
-    justify-content: space-between;
-    /* padding-left: 150px; */
-    position: relative;
-    background: white;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
 
   .bio {
     display: flex;
@@ -518,47 +493,26 @@
     width: 100%;
     padding-top: 35px;
     align-items: center;
-    /* justify-content: space-between; */
   }
 
   .bio img {
     width: 400px;
-    object-fit: contain;
   }
 
   .bio1 {
-    display: flex;
-    flex-direction: column;
     position: static;
   }
 
-  .bio1 h1 {
-    border-bottom: 1px solid grey;
-    color: black;
-    font-size: 3.5em;
-    line-height: 1em;
-    font-family: Rajdhani;
-    white-space: nowrap;
-    width: fit-content;
-  }
-
-  .bio1 p {
-    color: grey;
-    font-size: 1.2em;
-    font-weight: 100;
-    margin: 10px 0px;
-  }
-
-  .bio1 button {
-    height: 50px;
-    width: 150px;
-    background: transparent;
-    color: black;
-    transition: 0.5s;
+  .sk1 {
+    gap: 15px;
+    padding: 20px 20px;
   }
 
   .projbox {
     flex-direction: column;
   }
 
+  .projbtn button {
+    font-size: 1em;
+  }
 }

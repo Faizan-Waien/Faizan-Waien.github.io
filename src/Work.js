@@ -29,8 +29,8 @@ const Work = [
         more, to add that perfect finishing touch to your look. Shop conveniently from the comfort \
         of your home and step into the online shoping world with EZWAY!',
         image: EZ,
-        github:'',
-        link:'',
+        github:'https://github.com/Faizan-Waien/ezway',
+        link:'https://ezway.vercel.app/',
     },
 
     {
@@ -41,8 +41,8 @@ const Work = [
         From timeless classics to the latest blockbusters, we have got it all. Immerse yourself in the world of cinema \
         and enjoy unlimited entertainment from the comfort of your home. With FlixHub, movie night just got better!',
         image: FH,
-        github:'',
-        link:'',
+        github:'https://github.com/Faizan-Waien/FlixHub',
+        link:'http://flixhub-nine.vercel.app',
     },
 
     {

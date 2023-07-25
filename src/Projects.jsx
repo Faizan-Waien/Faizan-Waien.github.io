@@ -29,10 +29,10 @@ const Projects = () => {
                                 <div className="projbtn">
 
                                     <form action={proj?.github} method="get" target="_blank">
-                                        <button type="submit">View githib Repo</button>
+                                        <button type="submit">View GitHub Repo..</button>
                                     </form>
 
-                                    <form action={proj?.github} method="get" target="_blank">
+                                    <form action={proj?.link} method="get" target="_blank">
                                         <button type="submit">View Website</button>
                                     </form>
 
