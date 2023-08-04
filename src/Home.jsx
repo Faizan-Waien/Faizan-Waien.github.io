@@ -3,11 +3,18 @@ import Banner from "./Banner"
 import Skills from "./Skills"
 
 const Home = () => {
+
+
     return (
-        <div>
+        <div className="home">
+
             <Banner />
-            <About />
-            <Skills />
+
+            <div id='hide'>
+                {/* <About />
+                <Skills /> */}
+            </div>
+
         </div>
     )
 }

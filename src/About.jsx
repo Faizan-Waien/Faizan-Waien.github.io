@@ -1,12 +1,17 @@
+import Banner from "./Banner"
+
 const About = () => {
 
   return (
+    <div style={{ background: 'linear-gradient(120deg, gainsboro 50.5%, whitesmoke 51.5%)' }}>
 
-      <div className='about'>
+      <Banner />
 
-        <h1 className="heading">About Me</h1>
+      <div id='hide' className='about'>
 
         <div className='ab1'>
+
+          <h1 className="heading"><span>About</span></h1>
 
           <p>
             <b>Web Developer with a Passion for Crafting Engaging Digital Experiences</b>
@@ -35,8 +40,13 @@ const About = () => {
             Thank you for visiting, and I look forward to the opportunity to collaborate and bring your web development goals to life!
           </p>
 
+          <div className="wheel">
+            <h1> &#10068; </h1>
+          </div>
+
         </div>
       </div>
+    </div>
   )
 }
 

@@ -7,19 +7,19 @@ import PR from '/src/assets/images/PR.jpg'
 
 const photos = [
   {
-    id: '1',
+    id: '1a',
     url: SS,
   },
   {
-    id: '2',
+    id: '2a',
     url: EZ,
   },
   {
-    id: '3',
+    id: '3a',
     url: FH,
   },
   {
-    id: '4',
+    id: '4a',
     url: PR,
   },
 ];
@@ -47,7 +47,7 @@ const ImgSlider = () => {
   return (
     <div>
 
-      <div className='slider-container'>
+      <div id='banner' className='slider-container'>
         {photos.map((photo) => (
           <div
             key={photo.id}

@@ -4,10 +4,9 @@ import Footer from "./Footer"
 import About from './About'
 import Skills from './Skills'
 import Projects from './Projects'
-import Contact from './Contact'
 import Navbar from "./Navbar"
-import Cont from "./Cont"
 import Home from "./Home"
+import { ContextProvider } from "./SliderContext"
 
 const Pages = () => {
 
@@ -17,10 +16,12 @@ const Pages = () => {
 
                 <Route element={
                     <div>
-                        <Header />
-                        <Navbar />
-                        <Outlet />
-                        <Footer />
+                        <ContextProvider>
+                            <Header />
+                            <Navbar />
+                            <Outlet />
+                            <Footer />
+                        </ContextProvider>
                     </div>
                 }>
 
@@ -28,8 +29,7 @@ const Pages = () => {
                     <Route exact path='/about' Component={About} />
                     <Route exact path='/skills' Component={Skills} />
                     <Route exact path='/projects' Component={Projects} />
-                    <Route exact path='/contact' Component={Cont} />
-
+               
                 </Route>
 
             </Routes>

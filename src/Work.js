@@ -2,6 +2,10 @@ import SS from "/src/assets/images/SS.Dis.png"
 import EZ from "/src/assets/images/EZ.Dis.png"
 import FH from "/src/assets/images/FH.Dis.png"
 import PR from "/src/assets/images/PR.Dis.png"
+import SSL from "/src/assets/images/SS-lang.png"
+import EZL from "/src/assets/images/EZ-lang.png"
+import FHL from "/src/assets/images/FH-lang.png"
+import PRL from "/src/assets/images/PR-lang.png"
 
 const Work = [
 
@@ -17,6 +21,7 @@ const Work = [
         image: SS,
         github:'https://github.com/Faizan-Waien/SocialSpace',
         link:'',
+        lang: SSL,
     },
 
     {
@@ -31,6 +36,7 @@ const Work = [
         image: EZ,
         github:'https://github.com/Faizan-Waien/ezway',
         link:'https://ezway.vercel.app/',
+        lang: EZL,
     },
 
     {
@@ -43,6 +49,7 @@ const Work = [
         image: FH,
         github:'https://github.com/Faizan-Waien/FlixHub',
         link:'http://flixhub-nine.vercel.app',
+        lang: FHL,
     },
 
     {
@@ -54,6 +61,7 @@ const Work = [
         image: PR,
         github:'https://github.com/Faizan-Waien/Faizan-Waien.github.io',
         link:'https://faizan-waien.github.io/',
+        lang: PRL,
     },
 
 ]

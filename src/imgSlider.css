@@ -1,18 +1,13 @@
-/* * {
-  box-sizing: border-box;
-} */
-
-/* Slideshow container */
 .slider-container {
-  /* display: flex; */
   position: relative;
   width: 100%;
   height: 100%;
-  background: whitesmoke;
-  /* margin: 50px auto 20px auto; */
+  background: linear-gradient(120deg, rgb(20, 20, 20) 63.9%, rgb(245, 245, 245) 64.9%);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
+  overflow: hidden;
+  transition: all 1s;
 }
 
-/* Style each slide */
 .slide {
   display: none;
   width: 100%;
@@ -21,11 +16,10 @@
 
 .photo {
   width: 100%;
-  height: 630px;
+  height: 584px;
   object-fit: contain;
 }
 
-/* Next & previous buttons */
 .prev,
 .next {
   cursor: pointer;
@@ -42,23 +36,19 @@
   border: none;
 }
 
-/* Position the "next" button to the right */
 .next {
   right: 65px;
 }
 
-/* Position the "next" button to the left */
 .prev {
   left: 65px;
 }
 
-/* On hover, add a semi-transparent black background */
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* The dots indicator */
 .dots {
   display: flex;
   justify-content: center;
@@ -86,7 +76,6 @@
   background-color: gray;
 }
 
-/* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;

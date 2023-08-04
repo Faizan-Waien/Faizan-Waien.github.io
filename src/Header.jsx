@@ -6,12 +6,10 @@ const Header = () => {
     const navigate = useNavigate()
 
     return (
-        <div>
-
-            <div className='left'>
+        <div className='header'>
+            <div id='header' className='left'>
                 <img src={image} onClick={() => navigate('/')} />
             </div>
-
         </div>
     )
 }

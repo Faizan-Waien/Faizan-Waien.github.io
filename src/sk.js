@@ -10,6 +10,9 @@ import icon9 from "/src/assets/images/skills/rest-api.png"
 import icon10 from "/src/assets/images/skills/sockets.png"
 import icon11 from "/src/assets/images/skills/vs-code.png"
 import icon12 from "/src/assets/images/skills/Responsive.png"
+import icon13 from "/src/assets/images/skills/Redux.png"
+import icon14 from "/src/assets/images/skills/mui.png"
+import icon15 from "/src/assets/images/skills/Sass.png"
 
 const skill = [
 
@@ -40,9 +43,27 @@ const skill = [
     },
 
     {
+        id: 13,
+        title: 'Redux',
+        image: icon13
+    },
+
+    {
         id: 5,
         title: 'Express.js',
         image: icon5
+    },
+
+    {
+        id: 8,
+        title: 'PostgreSQL',
+        image: icon8
+    },
+
+    {
+        id: 10,
+        title: 'Sockets.io',
+        image: icon10
     },
 
     {
@@ -58,28 +79,23 @@ const skill = [
     },
 
     {
-        id: 8,
-        title: 'PostgreSQL',
-        image: icon8
-    },
-
-    {
-        id: 9,
-        title: 'RESTful APIs',
-        image: icon9
-    },
-
-    {
-        id: 10,
-        title: 'Sockets.io',
-        image: icon10
-    },
-
-    {
         id: 11,
         title: 'VS Code',
         image: icon11
     },
+
+    {
+        id: 15,
+        title: 'Sass',
+        image: icon15
+    },
+
+    {
+        id: 9,
+        title: 'Rest APIs',
+        image: icon9
+    },
+
 
     {
         id: 12,
@@ -87,6 +103,11 @@ const skill = [
         image: icon12
     },
 
+    {
+        id: 14,
+        title: 'MUI',
+        image: icon14
+    },
 ]
 
 export default skill

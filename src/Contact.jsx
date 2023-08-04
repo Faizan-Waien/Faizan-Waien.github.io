@@ -1,6 +1,5 @@
-import img1 from "/src/assets/images/mail.png"
-import img2 from "/src/assets/images/phone-call.png"
-import img3 from "/src/assets/images/location.png"
+import gh from '/src/assets/images/skills/github.png'
+import lin from '/src/assets/images/linkedin.png'
 
 const Contact = () => {
 
@@ -8,47 +7,54 @@ const Contact = () => {
 
         <div className='contact'>
 
-            <h1 className='heading'>Contact Me</h1>
 
-            <div className="con1">
+            <div className="cont1">
 
                 <div className="con1a">
 
-                    <div className="co">
-                        <img src={img1} style={{ width: 40 }} />
-                        <h3>faizan.waien@gmail.com</h3>
-                    </div>
+                    <h1>Contact.</h1>
 
-                    <div className="co">
-                        <img src={img2} style={{ width: 40 }} />
-                        <h3>+923345364196</h3>
+                    <h3>Get in touch with me via social media or email.</h3>
+                    <div>
+                        <img src={gh} />
+                        <img src={lin} />
                     </div>
-
-                    <div className="co">
-                        <img src={img3} style={{ width: 40 }} />
-                        <h3>Islamabad,Pakistan</h3>
-                    </div>
-
                 </div>
 
+                {/* ------------------------------------- */}
+
                 <div className="con1b">
+                    <h2>Contact Via.</h2>
+                    <p><span>E-mail:</span> faizan.waien@gmail.com</p>
+                    <p><span>Contact no:</span> +923345364196</p>
+                    <p><span>Location:</span> Islamabad, Pakistan</p>
+                </div>
 
-                    <div>
-                        <input placeholder="Name" />
+                {/* ------------------------------------- */}
 
-                        <input placeholder="Email Address" />
-                    </div>
+                <div className="con1c">
 
-                    <div>
+                    <h2>Send Email.</h2>
+
+                    <div className="form">
+
+                        <div>
+                            <input placeholder="Name" />
+
+                            <input placeholder="Email Address" />
+
+                            <input placeholder="Subject" />
+
+                            <button>Send Email</button>
+                        </div>
+
                         <textarea placeholder="Enter you message" />
+
                     </div>
-
-                    <button>Send Email</button>
-
                 </div>
 
             </div>
-        </div>
+        </div >
     )
 }
 
