@@ -48,7 +48,7 @@ const Work = [
         and enjoy unlimited entertainment from the comfort of your home. With FlixHub, movie night just got better!',
         image: FH,
         github:'https://github.com/Faizan-Waien/FlixHub',
-        link:'http://flixhub-nine.vercel.app',
+        link:'https://flixhub-nine.vercel.app',
         lang: FHL,
     },
 
