@@ -34,8 +34,8 @@ const Footer = () => {
 
                 <div className='scroll' >
                     {slider ?
-                        <h1 onClick={ScrDOWN}>&#11167;</h1>
-                        : <h1 onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>&#11165;</h1>
+                        <h1 onClick={ScrDOWN}>{/* &#11167; */} &#10095;</h1>
+                        : <h1 onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>{/* &#11165; */}&#10094;</h1>
                     }
                 </div>
 

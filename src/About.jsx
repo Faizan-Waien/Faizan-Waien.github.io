@@ -41,7 +41,7 @@ const About = () => {
           </p>
 
           <div className="wheel">
-            <h1> &#10068; </h1>
+            <h1>&#10068;</h1>
           </div>
 
         </div>

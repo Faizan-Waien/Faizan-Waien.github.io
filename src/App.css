@@ -34,9 +34,15 @@
   align-items: center;
 }
 
+.wheel img{
+  width: 250px;
+  opacity: 15%;
+}
+
 .wheel h1 {
   font-size: 200px;
-  color: rgba(20, 20, 20, 0.315);
+  color: rgba(20, 20, 20, 0.244);
+  font-family: Comfortaa;
 }
 
 @keyframes spin {
@@ -572,6 +578,10 @@
   border-top: 5px solid gray;
 }
 
+.scroll h1{
+transform: rotate(90deg);
+}
+
 .scroll:hover {
   top: -52px;
   color: maroon;
@@ -580,6 +590,11 @@
 /* ---------------------------------------- */
 
 @media screen and (max-width: 700px) {
+
+  .wheel {
+    left: 25%;
+    top: 25%;
+  }
 
   .left {
     background: #141414;

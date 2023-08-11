@@ -29,7 +29,8 @@ const Skills = () => {
                     </div>
 
                     <div className="wheel">
-                        <h1> &#128295; </h1>
+                    <img src='/src/assets/images/skiil.png'/>
+                        {/*<h1>  &#128295;  </h1>*/}
                     </div>
 
                 </div>
