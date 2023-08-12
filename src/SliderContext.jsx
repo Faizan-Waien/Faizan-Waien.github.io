@@ -9,7 +9,7 @@ const value = () => {
     const SlideUP = () => {
         // document.getElementById('banner').style.height = '290px';
         // document.getElementById('header').style.width = '91%';
-        document.getElementById('hide').style.display = 'none';
+        document.getElementById('content').style.display = 'none';
         document.getElementById('contactBox').style.display='block';
         document.getElementById('navbar').style.right='-380px';
         setSlider(true);

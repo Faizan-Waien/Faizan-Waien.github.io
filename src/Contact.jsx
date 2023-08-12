@@ -15,10 +15,21 @@ const Contact = () => {
                     <h1>Contact.</h1>
 
                     <h3>Get in touch with me via social media or email.</h3>
-                    <div>
-                        <img src={gh} />
-                        <img src={lin} />
+
+                    <div style={{ display: 'flex', gap: 10 }}>
+                        <form action={'https://github.com/faizan-waien'} method="get" target="_blank">
+                            <button type="submit">
+                                <img src={gh} />
+                            </button>
+                        </form>
+
+                        <form action={'https://www.linkedin.com/in/faizan-waien-991790284'} method="get" target="_blank">
+                            <button type="submit">
+                                <img src={lin} />
+                            </button>
+                        </form>
                     </div>
+
                 </div>
 
                 {/* ------------------------------------- */}

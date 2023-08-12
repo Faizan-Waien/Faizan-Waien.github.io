@@ -1,5 +1,6 @@
 import Banner from "./Banner"
 import skill from "./sk"
+import wheel from '/src/assets/images/skill.png'
 
 const Skills = () => {
 
@@ -9,7 +10,7 @@ const Skills = () => {
 
             <Banner />
 
-            <div id='hide' className="skills">
+            <div id='content' className="skills">
 
                 <div className="skmain">
 
@@ -29,7 +30,7 @@ const Skills = () => {
                     </div>
 
                     <div className="wheel">
-                    <img src='/src/assets/images/skiil.png'/>
+                    <img src={wheel} />
                         {/*<h1>  &#128295;  </h1>*/}
                     </div>
 

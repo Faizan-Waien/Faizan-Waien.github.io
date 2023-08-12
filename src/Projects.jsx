@@ -10,7 +10,7 @@ const Projects = () => {
 
             <ImgSlider />
 
-            <div id='hide' style={{ background: 'linear-gradient(120deg, gainsboro 36%, whitesmoke 37%)', padding: '100px 0px' }}>
+            <div id='content' style={{ background: 'linear-gradient(120deg, gainsboro 36%, whitesmoke 37%)', padding: '100px 0px' }}>
 
                 <div className="projcont">
 
@@ -34,23 +34,21 @@ const Projects = () => {
                                             </button>
                                         </form>
 
-                                        <form action={proj?.link} method="get" target="_blank">
-
-                                            <button type="submit">
-
-                                                <img src={link} />
-                                                <span>View Website</span>
-
-                                            </button>
-
-                                        </form>
+                                        {proj?.link &&
+                                            <form action={proj?.link} method="get" target="_blank">
+                                                <button type="submit">
+                                                    <img src={link} />
+                                                    <span>View Website</span>
+                                                </button>
+                                            </form>
+                                        }
 
                                     </div>
                                 </div>
 
                                 <div className="projimg">
                                     <img src={proj.image} onClick={() => window.open(`${proj.image}`)} />
-                                    <img src={proj.lang} style={{height:30,width:'fit-content',cursor:'default'}}/>
+                                    <img src={proj.lang} style={{ height: 30, width: 'fit-content', cursor: 'default' }} />
                                 </div>
                             </div>
                         )

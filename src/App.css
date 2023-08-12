@@ -34,7 +34,7 @@
   align-items: center;
 }
 
-.wheel img{
+.wheel img {
   width: 250px;
   opacity: 15%;
 }
@@ -42,7 +42,7 @@
 .wheel h1 {
   font-size: 200px;
   color: rgba(20, 20, 20, 0.244);
-  font-family: Comfortaa;
+  font-family:'Gill Sans MT';
 }
 
 @keyframes spin {
@@ -98,13 +98,13 @@
   width: 621px;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 35px;
-  background: linear-gradient(90deg, rgba(20, 20, 20, 0.948) 14.5%, rgba(0, 0, 0, 0.129) 14.5%);
+  padding: 20px 38px;
+  background: linear-gradient(90deg, rgba(20, 20, 20, 0.948) 15%, rgba(220, 220, 220, 0.295) 15%);
   box-shadow: rgba(0, 0, 0, 0.3) 10px 10px 30px;
   transform: rotate(90deg);
   position: absolute;
   top: 312px;
-  right: -312px;
+  right: -315px;
   z-index: 999;
   transition: 1s;
   animation: leftmove 1s ease-in-out;
@@ -116,7 +116,7 @@
   }
 
   to {
-    right: -312px;
+    right: -315px;
   }
 }
 
@@ -142,14 +142,14 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 583px;
+  height: 585px;
   overflow: hidden;
   align-items: center;
   justify-content: space-between;
   position: relative;
   background: linear-gradient(120deg, rgb(20, 20, 20) 64%, rgb(245, 245, 245) 65%);
   box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
-  border-bottom: 10px solid rgba(20, 20, 20, 0.736);
+  border-bottom: 9px solid rgba(20, 20, 20, 0.736);
   animation-name: fade;
   animation-duration: 1.5s;
   transition: 1s;
@@ -414,7 +414,6 @@
 .con1a img {
   width: 50px;
   height: 50px;
-  padding: 0px 10px;
   cursor: pointer;
   border-radius: 50%;
   transition: 1s;
@@ -422,6 +421,12 @@
 
 .con1a img:hover {
   transform: scale(1.2);
+}
+
+.con1a button {
+  background: transparent;
+  border: transparent;
+  padding: 0;
 }
 
 /* -------------------- */
@@ -526,7 +531,8 @@
   /* background: gainsboro; */
   position: absolute;
   width: 100%;
-  top: 52.4%;
+  height: 86%;
+  top: 13%;
   transition: all 0.5s;
   z-index: 999;
 }
@@ -534,7 +540,9 @@
 .close {
   background: gainsboro;
   width: 100%;
-  top: 94%;
+  /* top: 94%; */
+  top: 93%;
+  position: fixed;
   transition: all 0.5s;
   z-index: 999;
 }
@@ -554,8 +562,9 @@
   color: gray;
   font-size: large;
   width: 95%;
-  height: fit-content;
+  height: 100%;
   margin: auto;
+  justify-content: space-between;
 }
 
 .foot1a {
@@ -572,14 +581,14 @@
   color: gray;
   position: absolute;
   top: -45px;
-  left: 45%;
+  left: 50%;
   cursor: pointer;
   transition: top 0.5s ease-in-out;
   border-top: 5px solid gray;
 }
 
-.scroll h1{
-transform: rotate(90deg);
+.scroll h1 {
+  transform: rotate(90deg);
 }
 
 .scroll:hover {
@@ -592,7 +601,7 @@ transform: rotate(90deg);
 @media screen and (max-width: 700px) {
 
   .wheel {
-    left: 25%;
+    left: 20%;
     top: 25%;
   }
 

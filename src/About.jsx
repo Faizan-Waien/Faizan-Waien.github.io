@@ -7,7 +7,7 @@ const About = () => {
 
       <Banner />
 
-      <div id='hide' className='about'>
+      <div id='content' className='about'>
 
         <div className='ab1'>
 
@@ -41,7 +41,7 @@ const About = () => {
           </p>
 
           <div className="wheel">
-            <h1>&#10068;</h1>
+            <h1>{/* &#10068; */}?</h1>
           </div>
 
         </div>
