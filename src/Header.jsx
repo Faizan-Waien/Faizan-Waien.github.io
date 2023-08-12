@@ -7,7 +7,7 @@ const Header = () => {
 
     return (
         <div className='header'>
-            <div id='header' className='left'>
+            <div className='left'>
                 <img src={image} onClick={() => navigate('/')} />
             </div>
         </div>

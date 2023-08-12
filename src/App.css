@@ -112,7 +112,7 @@
 
 @keyframes leftmove {
   from {
-    right: -380px;
+    right: -385px;
   }
 
   to {
@@ -528,11 +528,12 @@
 
 .slider {
   background: linear-gradient(120deg, gainsboro 53%, whitesmoke 54%);
-  /* background: gainsboro; */
+  background: gainsboro;
   position: absolute;
   width: 100%;
-  height: 86%;
-  top: 13%;
+  height: 87%;
+  /* top: 13%; */
+  bottom: 0%;
   transition: all 0.5s;
   z-index: 999;
 }
@@ -540,15 +541,16 @@
 .close {
   background: gainsboro;
   width: 100%;
-  /* top: 94%; */
-  top: 93%;
+  height: 7%;
+  /* top: 93%; */
+  bottom: 0%;
   position: fixed;
   transition: all 0.5s;
   z-index: 999;
 }
 
 .footer {
-  /* background: gainsboro; */
+  background: gainsboro;
   position: relative;
   width: 100%;
   height: 100%;
@@ -559,6 +561,7 @@
 .foot1 {
   display: flex;
   flex-direction: column;
+  background: gainsboro;
   color: gray;
   font-size: large;
   width: 95%;

@@ -7,7 +7,7 @@ const Banner = () => {
     const { SlideUP } = useContext(SliderContext)
 
     return (
-        <div id='banner' className="banner">
+        <div className="banner">
 
             <div className="bio">
 

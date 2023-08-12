@@ -47,7 +47,7 @@ const ImgSlider = () => {
   return (
     <div>
 
-      <div id='banner' className='slider-container'>
+      <div className='slider-container'>
         {photos.map((photo) => (
           <div
             key={photo.id}
