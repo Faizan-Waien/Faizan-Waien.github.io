@@ -7,9 +7,10 @@ const Footer = () => {
     const { slider, setSlider } = useContext(SliderContext)
 
     const ScrDOWN = () => {
-        setTimeout(() => { document.getElementById('hide').style.display = 'block' }, 900);
-        document.getElementById('banner').style.height = '583px';
-        document.getElementById('header').style.width = '100%';
+        // setTimeout(() => { document.getElementById('hide').style.display = 'block' }, 900);
+        // document.getElementById('banner').style.height = '583px';
+        // document.getElementById('header').style.width = '100%';
+        document.getElementById('hide').style.display = 'block';
         document.getElementById('contactBox').style.display = 'none';
         document.getElementById('navbar').style.right = '-312px';
         setSlider(false)
