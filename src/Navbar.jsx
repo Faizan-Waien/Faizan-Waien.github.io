@@ -40,7 +40,7 @@ const Navbar = () => {
                             color: isActive ? "maroon" : "black",
                         };
                     }}>
-                    <span onClick={() => setTimeout(() => { window.scrollTo({ top: 750, behavior: 'smooth' }) }, 50)}>ABOUT</span>
+                    <span onClick={() => setTimeout(() => { window.scrollTo({ top: 800, behavior: 'smooth' }) }, 50)}>ABOUT</span>
                 </NavLink>
             </nav>
 
@@ -52,7 +52,7 @@ const Navbar = () => {
                             color: isActive ? "maroon" : "black",
                         };
                     }}>
-                    <span onClick={() => setTimeout(() => { window.scrollTo({ top: 750, behavior: 'smooth' }) }, 50)}>SKILLS</span>
+                    <span onClick={() => setTimeout(() => { window.scrollTo({ top: 800, behavior: 'smooth' }) }, 50)}>SKILLS</span>
                 </NavLink>
             </nav>
 

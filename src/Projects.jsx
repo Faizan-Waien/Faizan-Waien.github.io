@@ -10,7 +10,7 @@ const Projects = () => {
 
             <ImgSlider />
 
-            <div id='content' style={{ background: 'linear-gradient(120deg, gainsboro 36%, whitesmoke 37%)', padding: '100px 0px' }}>
+            <div id='content' className="projdiv">
 
                 <div className="projcont">
 

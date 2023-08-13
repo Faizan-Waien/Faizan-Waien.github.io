@@ -42,7 +42,7 @@
 .wheel h1 {
   font-size: 200px;
   color: rgba(20, 20, 20, 0.244);
-  font-family:'Gill Sans MT';
+  font-family: 'Gill Sans MT';
 }
 
 @keyframes spin {
@@ -56,9 +56,9 @@
 }
 
 /* -HEADER----------------------------------- */
+
 .header {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
-  background: whitesmoke;
   z-index: 1;
   position: relative;
   animation: topmove 1s ease-in-out;
@@ -296,6 +296,12 @@
   margin: 0px;
 }
 
+.projdiv {
+  background: linear-gradient(120deg, gainsboro 36%, whitesmoke 37%);
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
 .projcont {
   display: flex;
   flex-direction: column;
@@ -527,13 +533,12 @@
 /* -FOOTER----------------------------------------- */
 
 .slider {
-  background: linear-gradient(120deg, gainsboro 53%, whitesmoke 54%);
-  background: gainsboro;
-  position: absolute;
+  background: linear-gradient(120deg, gainsboro 63%, whitesmoke 64%);
+  position: fixed;
   width: 100%;
   height: 87%;
   /* top: 13%; */
-  bottom: 0%;
+  bottom: 0;
   transition: all 0.5s;
   z-index: 999;
 }
@@ -543,14 +548,14 @@
   width: 100%;
   height: 7%;
   /* top: 93%; */
-  bottom: 0%;
+  bottom: 0;
   position: fixed;
   transition: all 0.5s;
   z-index: 999;
 }
 
 .footer {
-  background: gainsboro;
+  /* background: gainsboro; */
   position: relative;
   width: 100%;
   height: 100%;
@@ -561,7 +566,7 @@
 .foot1 {
   display: flex;
   flex-direction: column;
-  background: gainsboro;
+  /* background: gainsboro; */
   color: gray;
   font-size: large;
   width: 95%;
@@ -634,7 +639,7 @@
 
   .sk1 {
     gap: 15px;
-    padding: 20px 20px;
+    padding: 20px 10px;
   }
 
   .projbox {
@@ -651,4 +656,9 @@
   .con1c {
     border: 1px solid grey;
   }
+
+  .footer .scroll {
+    left: 45%
+  }
+
 }
