@@ -16,14 +16,14 @@ const About = () => {
           <p>
             <b>Web Developer with a Passion for Crafting Engaging Digital Experiences</b>
             <br /><br />
-            Welcome to my portfolio! I'm Faizan Waien, a dedicated and innovative web developer. I am driven by a deep passion for technology
+            Welcome to my portfolio! I'm Faizan Waien, a dedicated and innovative front-end developer. I am driven by a deep passion for technology
             and a genuine enthusiasm for building seamless, user-centric websites and applications.
             <br /><br />
             I have honed my skills in a wide range of web development technologies and
-            frameworks, including HTMLS, CSS3, JavaScript, React.js, and Node.js.
+            frameworks, including HTMLS, CSS3, JavaScript, React.js.
             <br /><br />
-            What sets me apart as a web developer is my ability to understand the unique needs of each project and
-            translate them into visually stunning and highly functional websites. I have a keen eye for detail and an
+            What sets me apart as a developer is my ability to understand the unique needs of each project and
+            translate them into visually stunning and highly functional websites and applocations. I have a keen eye for detail and an
             unwavering commitment to delivering top-notch results_ From concept to execution, I enjoy being
             involved in every stage of the development process, collaborating closely with clients and designers to
             transform ideas into reality.

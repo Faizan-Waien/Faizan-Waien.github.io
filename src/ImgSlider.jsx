@@ -3,6 +3,7 @@ import './imgSlider.css';
 import SS from '/src/assets/images/SS.jpg'
 import EZ from '/src/assets/images/EZ.jpg'
 import FH from '/src/assets/images/FH.jpg'
+import FA from '/src/assets/images/FA.jpg'
 import PR from '/src/assets/images/PR.jpg'
 
 const photos = [
@@ -20,7 +21,7 @@ const photos = [
   },
   {
     id: '4a',
-    url: PR,
+    url: FA,
   },
 ];
 

@@ -1,10 +1,12 @@
 import SS from "/src/assets/images/SS.Dis.png"
 import EZ from "/src/assets/images/EZ.Dis.png"
 import FH from "/src/assets/images/FH.Dis.png"
+import FA from "/src/assets/images/FA.Dis.png"
 import PR from "/src/assets/images/PR.Dis.png"
 import SSL from "/src/assets/images/SS-lang.png"
 import EZL from "/src/assets/images/EZ-lang.png"
 import FHL from "/src/assets/images/FH-lang.png"
+import FAL from "/src/assets/images/FA-lang.png"
 import PRL from "/src/assets/images/PR-lang.png"
 
 const Work = [
@@ -17,7 +19,7 @@ const Work = [
         clothing for all genders and kids. From chic outfits to casual wear, we have got you covered \
         for every occasion. Explore our wide range of accessories, including bags, jewelry, and \
         more, to add that perfect finishing touch to your look. Shop conveniently from the comfort \
-        of your home and step into the online shoping world with EZWAY!',
+        of your home and step into the online shoping world with EZWAY.',
         image: EZ,
         github: 'https://github.com/Faizan-Waien/ezway',
         link: 'https://ezway.vercel.app/',
@@ -30,10 +32,10 @@ const Work = [
         tagline: 'FlixHub - Your Ultimate Destination for Movie Streaming!',
         detail: 'FlixHub is your go-to platform for streaming a vast collection of movies from all genres and languages. \
         From timeless classics to the latest blockbusters, we have got it all. Immerse yourself in the world of cinema \
-        and enjoy unlimited entertainment from the comfort of your home. With FlixHub, movie night just got better!',
+        and enjoy unlimited entertainment from the comfort of your home. With FlixHub, movie night just got better.',
         image: FH,
         github: 'https://github.com/Faizan-Waien/FlixHub',
-        link: 'https://flixhub-nine.vercel.app',
+        link: 'https://flixhub-nine.vercel.app/',
         lang: FHL,
     },
 
@@ -45,7 +47,7 @@ const Work = [
         Engage with friends, share your lifes moments, and connect with new like-minded individuals. \
         With cutting-edge features and a user-friendly interface, SocialSpace is your go-to destination \
         for staying connected and discovering new horizons. Join us now and experience the power of \
-        genuine connections in a digital world!',
+        genuine connections in a digital world.',
         image: SS,
         github: 'https://github.com/Faizan-Waien/SocialSpace',
         // link: '',
@@ -54,10 +56,25 @@ const Work = [
 
     {
         id: 4,
+        title: 'Full Stack Academy of Code',
+        tagline: 'Full Stack Academy of Code - Quiz Your Way to Full-Stack Mastery!',
+        detail: 'Are you ready to put your coding skills to the test? Full Stack Academy of Code is your \
+        gateway to honing your expertise in full-stack development. Dive into a world of interactive quizzes \
+        and challenges, designed to fine-tune your abilities and expand your knowledge. Our platform offers a \
+        comprehensive range of quizzes on full-stack courses, enabling you to evaluate your skills, identify \
+        areas for improvement, and stay at the forefront of this dynamic field.',
+        image: FA,
+        github: 'https://github.com/Faizan-Waien/FSAOC-Quiz',
+        link: 'https://fsaoc.vercel.app/',
+        lang: FAL,
+    },
+
+    {
+        id: 5,
         title: 'Portfolio',
         tagline: 'Portfolio - Showcasing my skills and work/projects!',
         detail: 'Thank you for visiting, and I look forward to the opportunity to collaborate on future projects or discuss \
-        how I can contribute to your web development needs. Lets create something extraordinary together!',
+        how I can contribute to your web development needs. Lets create something extraordinary together.',
         image: PR,
         github: 'https://github.com/Faizan-Waien/Faizan-Waien.github.io',
         link: 'https://faizan-waien.github.io/',
